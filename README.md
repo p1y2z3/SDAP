@@ -39,3 +39,6 @@ run `test.py`
 ## Contact
 If you have any questions, please contact p1y2z3@163.com.
 
+
+## Acknowledgment
+The codes are based on [AP-BSN](https://github.com/wooseoklee4/AP-BSN) and [Neighbor2Neighbor](https://github.com/TaoHuang2018/Neighbor2Neighbor). Thanks for their awesome works
