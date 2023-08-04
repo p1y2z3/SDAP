@@ -126,7 +126,7 @@ def train(dataloader_val, train_loader, model, optimizer, epoch, epoch_total, L1
             loss_avg = loss_sum / 10
             loss_sum = 0.0
             print("Training: Epoch[{:0>3}/{:0>3}] Iteration[{:0>3}/{:0>3}] Loss: {:.8f} Time: {:4.4f}s".format(
-                epoch + 1, epoch_total, i + 1, len(train_loader), loss_avg, time.time() - start_time))
+                epoch, epoch_total, i, len(train_loader), loss_avg, time.time() - start_time))
             start_time = time.time()
 
         if (i % 300 == 0 or i==len(train_loader)-1) and (i != 0):
