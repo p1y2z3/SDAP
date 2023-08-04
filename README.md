@@ -34,10 +34,12 @@ You can get the complete SIDD validation dataset from https://www.eecs.yorku.ca/
 
 '.mat' files need to be converted to images ('.png'). 
 
-run `test.py`.
+run `test.py`to output the denoising results of our proposed method.
 
 ## Train
 '.mat' files in training datasets need to be converted to images ('.png').
+
+You have to add the noisy images ('.png') for training in './dataset/train_data'.
 
 Tip: Reducing the size of the training image speeds up the reading of the dataset thus speeding up training. So you can crop the image to a fixed size (e.g. 512*512) in advance.
 
@@ -57,4 +59,4 @@ If you have any questions, please contact p1y2z3@163.com.
 
 
 ## Acknowledgment
-The codes are based on [AP-BSN](https://github.com/wooseoklee4/AP-BSN) and [Neighbor2Neighbor](https://github.com/TaoHuang2018/Neighbor2Neighbor). Thanks for their awesome works
+The codes are based on [AP-BSN](https://github.com/wooseoklee4/AP-BSN) and [Neighbor2Neighbor](https://github.com/TaoHuang2018/Neighbor2Neighbor). Thanks for their awesome works.
