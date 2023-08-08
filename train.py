@@ -21,8 +21,7 @@ parser.add_argument('--train_path', type=str, default="./dataset/train_data",
                     help='training dataset path')
 parser.add_argument('--val_path', type=str, default="./dataset/sidd_val_img/SIDD_noisy", 
                     help='validating dataset path')
-parser.add_argument('--gpu', type=str, default="1",
-                    help='GPU id')
+parser.add_argument('--gpu', type=str, default="1", help='GPU id')
 parser.add_argument('--save_img', type=bool, default=True, help='if save the last validated image for comparison')
 parser.add_argument('--eval', type=bool, default=True, help='if calculate psnr/ssim')
 parser.add_argument('--result_path', type=str, default='./results', 
@@ -31,9 +30,6 @@ parser.add_argument('--pretrained_model', type=str, default='./ckpt/SDAP.pth',
                      help='training loss')
 parser.add_argument('--save_model_dir', type=str, default='./ckpt/experiment1', help='path to save models')
 parser.add_argument('--Enhancement', type=bool, default=False, help='if use performance enhancement')
-
-
-
 
 args = parser.parse_args()
 psnr_max = 0
@@ -225,6 +221,8 @@ if __name__ == '__main__':
     os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
+    assert args.ps % 5 == 0, 'patch size must be set to a multiple of 5.'
+  
     if not os.path.isdir(args.save_model_dir):
             os.makedirs(args.save_model_dir)
 
