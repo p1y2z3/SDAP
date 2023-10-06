@@ -2,7 +2,7 @@
 
 ### Yizhong Pan, Xiao Liu, Xiangyu Liao, Yuanzhouhan Cao, Chao Ren
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/abs/2307.16825) [![iccv_paper](https://img.shields.io/badge/ICCV-2023-blue)](https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Random_Sub-Samples_Generation_for_Self-Supervised_Real_Image_Denoising_ICCV_2023_paper.html)
+[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/abs/2307.16825) [![iccv_paper](https://img.shields.io/badge/ICCV-Paper-blue)](https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Random_Sub-Samples_Generation_for_Self-Supervised_Real_Image_Denoising_ICCV_2023_paper.html)
 
 This is the official code of SDAP: Random Sub-Samples Generation for Self-Supervised Real Image Denoising.
 
