@@ -2,7 +2,7 @@
 
 ### Yizhong Pan, Xiao Liu, Xiangyu Liao, Yuanzhouhan Cao, Chao Ren
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/abs/2307.16825)
+[![paper](https://img.shields.io/badge/arXiv-Paper-green_yellow)](https://arxiv.org/abs/2307.16825) [![iccv_paper](https://img.shields.io/badge/ICCV-2023-blue)](https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Random_Sub-Samples_Generation_for_Self-Supervised_Real_Image_Denoising_ICCV_2023_paper.html)
 
 This is the official code of SDAP: Random Sub-Samples Generation for Self-Supervised Real Image Denoising.
 
@@ -47,11 +47,13 @@ run `train.py`.
 
 ## Citation
 
-    @inproceedings{pan2023random,
-      title={Random Sub-Samples Generation for Self-Supervised Real Image Denoising}, 
-      author={Yizhong Pan and Xiao Liu and Xiangyu Liao and Yuanzhouhan Cao and Chao Ren},
-      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-      year={2023}
+    @inproceedings{Pan_2023_ICCV,
+    author    = {Pan, Yizhong and Liu, Xiao and Liao, Xiangyu and Cao, Yuanzhouhan and Ren, Chao},
+    title     = {Random Sub-Samples Generation for Self-Supervised Real Image Denoising},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {12150-12159}
     }
 
 ## Contact
